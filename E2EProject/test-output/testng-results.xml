@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-20T16:52:41 IST" name="Suite" finished-at="2021-10-20T16:53:19 IST" duration-ms="38084">
+    <groups>
+    </groups>
+    <test started-at="2021-10-20T16:52:41 IST" name="App Validate Test" finished-at="2021-10-20T16:52:41 IST" duration-ms="12">
+    </test> <!-- App Validate Test -->
+    <test started-at="2021-10-20T16:52:41 IST" name="Validate Title Test" finished-at="2021-10-20T16:52:56 IST" duration-ms="15142">
+      <class name="Accademy.ValidateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Accademy.ValidateTitle@1a45193b]" started-at="2021-10-20T16:52:41 IST" name="initialize" finished-at="2021-10-20T16:52:56 IST" duration-ms="14803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigaton()[pri:0, instance:Accademy.ValidateTitle@1a45193b]" started-at="2021-10-20T16:52:56 IST" name="basePageNavigaton" finished-at="2021-10-20T16:52:56 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigaton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Accademy.ValidateTitle@1a45193b]" started-at="2021-10-20T16:52:56 IST" name="teardown" finished-at="2021-10-20T16:52:56 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Accademy.ValidateTitle -->
+    </test> <!-- Validate Title Test -->
+    <test started-at="2021-10-20T16:52:56 IST" name="Home Page ValidateTest" finished-at="2021-10-20T16:53:13 IST" duration-ms="17193">
+      <class name="Accademy.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Accademy.HomePage@6b44435b]" started-at="2021-10-20T16:52:56 IST" name="initialize" finished-at="2021-10-20T16:52:58 IST" duration-ms="1750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigaton(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Accademy.HomePage@6b44435b]" started-at="2021-10-20T16:52:58 IST" name="basePageNavigaton" data-provider="getData" finished-at="2021-10-20T16:53:06 IST" duration-ms="8160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricted@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigaton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Accademy.HomePage@6b44435b]" started-at="2021-10-20T16:53:06 IST" name="teardown" finished-at="2021-10-20T16:53:06 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Accademy.HomePage@6b44435b]" started-at="2021-10-20T16:53:06 IST" name="initialize" finished-at="2021-10-20T16:53:08 IST" duration-ms="1842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigaton(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Accademy.HomePage@6b44435b]" started-at="2021-10-20T16:53:08 IST" name="basePageNavigaton" data-provider="getData" finished-at="2021-10-20T16:53:13 IST" duration-ms="5247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigaton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Accademy.HomePage@6b44435b]" started-at="2021-10-20T16:53:13 IST" name="teardown" finished-at="2021-10-20T16:53:13 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Accademy.HomePage -->
+    </test> <!-- Home Page ValidateTest -->
+    <test started-at="2021-10-20T16:53:13 IST" name="Validate Navigation Test" finished-at="2021-10-20T16:53:19 IST" duration-ms="5671">
+      <class name="Accademy.ValidateNavigation">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Accademy.ValidateNavigation@698122b2]" started-at="2021-10-20T16:53:13 IST" name="initialize" finished-at="2021-10-20T16:53:19 IST" duration-ms="5460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigaton()[pri:0, instance:Accademy.ValidateNavigation@698122b2]" started-at="2021-10-20T16:53:19 IST" name="basePageNavigaton" finished-at="2021-10-20T16:53:19 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigaton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Accademy.ValidateNavigation@698122b2]" started-at="2021-10-20T16:53:19 IST" name="teardown" finished-at="2021-10-20T16:53:19 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Accademy.ValidateNavigation -->
+    </test> <!-- Validate Navigation Test -->
+  </suite> <!-- Suite -->
+</testng-results>
